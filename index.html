@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>      
+        <section>
+            <form action="">   
+                <!-- Desenho de circolo e imagem  -->
+                <header >
+                    <div class="circle">
+                        <div class="text">
+                            <p>Formulário</p>
+                            <p>para compra de</p>
+                            <p>Pacote de adesivos</p>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Inputs e labels -->
+                <div class="group-input">
+                    <label class="black-label">Quais adesivos</label>
+                    <br>
+                    <br>
+
+                    <input type="checkbox" name="" id=""> <label for="">React</label>
+                    <br>
+                    <br>
+
+                    <input type="checkbox" name="" id=""> <label for="">Vue</label>
+                    <br>
+
+                    <input type="checkbox" name="" id=""> <label for="">Angular</label>
+                    <br>
+                    <br>
+                    <br>
+
+                    <label class="black-label">Quantos adesivos de cada ?</label>
+                    <br>
+                    <br>
+
+                    <button id="menos">
+                        <p>-</p>
+                    </button> 
+                        <input type="number" id="results">
+                    <button id="mais">
+                       <p>+</p>
+                    </button>
+                    <br>
+                    <br>
+
+                    <label class="black-label">Observações:</label>
+                    <br>
+                    <br>
+
+                    <textarea  cols="50" rows="10" placeholder=" Alguma duvida ? Recado ?"></textarea>
+                    <br>
+                    <br>
+
+                                    
+                </div>
+
+                <footer>
+                        <button id="enviar">ENVIAR</button>
+                </footer>
+
+            </form>
+        </section>
+
+        <div id="modal-checkOut" class="modal-container">
+            <div class="modal">
+                <button class="fechar">X</button>
+                <div class="gren">
+                    <h3>Tudo certo!</h3>
+                </div>
+                <p>Os pacotes de adesivos serão enviados por email</p>
+                <p>Oprigado por compra com a BemPaggo</p>
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
